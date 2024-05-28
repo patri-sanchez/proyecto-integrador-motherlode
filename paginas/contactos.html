@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylecontactos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>formulario</title>
+    
+</head>
+
+<body style="background-color: rgb(82, 135, 233);">
+    <header>
+        <div class="interior">
+            <a href="" class="logo"> <img class="inicio" src="../imagenes/cartel logo.jpg" alt=""></a>
+            <nav class="navegacion">
+            <li></li><a href="../index.html">INICIO</a></li>
+            <li></li><a href="../paginas/contactos.html">CONTACTO</a></li>
+            <li><a href="../paginas/horarioaten.html">HORARIO DE ATENCION</a></li>
+            <li><a href="../paginas/quienessomos.html">QUIENES SOMOS</a></li>
+            <li><a href="../paginas/enlaces.html">VIDEO INFORMATIVOS</a></li>
+             <li class="submenu">
+             <ul class="hijos">
+                <li></li><a href="historia"></a>
+                <li></li><a href="notas de prensa"></a>
+                <li></li><a href="videos"></a>
+             </ul>
+             </li>
+          </div>
+        </nav>
+     </div>
+</header>
+
+   
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<form method="post" action="">
+    <h2>Formulario de contacto</h2>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br>
+
+    <label for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" placeholder="Apellido"><br>
+
+    <label>Indique sexo:</label><br>
+    <input type="radio" id="masculino" name="sexo" value="masculino">
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="femenino" name="sexo" value="femenino">
+    <label for="femenino">Femenino</label><br>
+    <input type="radio" id="otro" name="sexo" value="otro">
+    <label for="otro">Otro</label><br>
+
+    <label>Indique sus intereses a continuación:</label><br>
+    <input type="checkbox" id="autismo" name="intereses" value="autismo">
+    <label for="autismo">Autismo</label><br>
+    <input type="checkbox" id="guia" name="intereses" value="guia">
+    <label for="guia">Guía de trámites</label><br>
+    <input type="checkbox" id="profesionales" name="intereses" value="profesionales">
+    <label for="profesionales">Guía de profesionales</label><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Cancelar">
+</form>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<footer class="footer"> Patricia Sanchez </footer>
+</body>
+</html>

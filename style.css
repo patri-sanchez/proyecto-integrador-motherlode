@@ -1,0 +1,88 @@
+*{ margin:0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: "open sans";
+}
+body{
+    background-color: rgb(82, 135, 233);
+    font-family: Arial, sans-serif; /* Establece Arial como la fuente principal */
+    color: white; /* Establece el color del texto en blanco */
+    background-color: black; /* Cambia el color de fondo */
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+main {
+    min-height: calc(100% - 120px);
+ }
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 5px 20px;
+}
+.logo img{
+    height: 80px;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.navegacion{
+    float:right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+.navegacion ul{
+    list-style:none ;
+    padding: 0 10px;
+}
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    transition: .3s linear;
+    z-index: 1000;
+
+}
+.navegacion ul li :hover{
+    transform: scale(1.1);
+}
+.navegacion ul a{
+    color: beige;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 26px;
+    transition: .3s linear ;
+}
+ .navegacion ul li a:hover{
+    color: aqua;
+    transform: scale(1.1);
+ }  
+
+.carusel{
+   width: 1100px;
+   height: 400px;
+}
+.container{
+    margin: 50px;
+}
+
+
+ .footer {
+    background-color: #000000; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alinear el texto al centro */
+    padding: 10px; /* Espaciado interno */
+    height: 60px; /* Altura del footer */
+    
+}

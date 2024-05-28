@@ -1,0 +1,111 @@
+*{ margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "open sans";
+    }
+    body{
+        background-color: rgb(82, 135, 233);
+    }
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    
+    }
+    main {
+        min-height: calc(100% - 120px);
+     }
+    .interior{
+        max-width: 100%;
+        padding: 0 10px;
+        margin: auto;
+    }
+    .logo{
+        float: left;
+        padding: 5px 20px;
+    }
+    .logo img{
+        height: 80px;
+    }
+    .logo img:hover{
+        transform: scale(1.1);
+    }
+    .navegacion{
+        float:right;
+        display: flex;
+        align-items: center;
+        min-height: 90px;
+        z-index: 1000;
+    }
+    .navegacion ul{
+        list-style:none ;
+        padding: 0 10px;
+    }
+    .navegacion ul li{
+        display: inline-block;
+        position: relative;
+        transition: .3s linear;
+        z-index: 1000;
+    
+    }
+    .navegacion ul li :hover{
+        transform: scale(1.1);
+    }
+    .navegacion ul a{
+        color: beige;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 12px 26px;
+        transition: .3s linear ;
+    }
+     .navegacion ul li a:hover{
+        color: aqua;
+        transform: scale(1.1);
+     }  
+
+    
+        /* Estilo del formulario */
+        form {
+            width: 300px; /* Ancho del formulario */
+            padding: 20px; /* Espaciado interno */
+            background-color: #ffffff; /* Color de fondo del formulario */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+        }
+
+        /* Estilos para los campos del formulario */
+        input[type="text"],
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-bottom: 10px; /* Espacio entre los campos */
+        }
+
+        /* Estilo para los botones del formulario */
+        input[type="submit"],
+        input[type="reset"] {
+            width: 100%; /* Ancho completo */
+            padding: 10px; /* Espaciado interno */
+            margin-top: 10px; /* Espacio superior */
+            background-color: #007bff; /* Color de fondo del botón */
+            color: #fff; /* Color del texto del botón */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0056b3; /* Cambiar color de fondo al pasar el cursor */
+        }
+        .footer {
+            background-color: #000000; /* Color de fondo */
+            color: white; /* Color del texto */
+            text-align: center; /* Alinear el texto al centro */
+            padding: 10px; /* Espaciado interno */
+            height: 60px; /* Altura del footer */
+            
+        }
+        
